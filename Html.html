@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Normallize.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <script src="/JS/JavaScript.js" defer type="module"></script>
+    <script src="/JS/translation.js" defer type="module"></script>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <i class="fa-solid fa-arrow-up btn-up"></i>
+    <header>
+        <div class="container">
+            <!-- Logo -->
+            <a title="Logo" href="#" class="logo">
+                <img src="/imgs/Logo.jpg">
+            </a>
+            <!-- Nav -->
+            <nav>
+                <!-- Menu Tab -->
+                <div class="nav-bar">
+                    <i class="fa-solid fa-bars toggle-menu"></i>
+                    <ul>
+                        <li><a class="active one" data-transtion="home" href="#home">Home</a></li>
+                        <li><a class="two" data-transtion="services" href="#services">Services</a></li>
+                        <li><a class="three" data-transtion="portfolio" href="#portfolio">Portfolio</a></li>
+                        <li><a class="four" data-transtion="about" href="#about">About</a></li>
+                        <li><a class="five" data-transtion="stats" href="#stats">Stats</a></li>
+                        <li><a class="six" data-transtion="contact" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Search -->
+                <form class="search">
+                    <i title="Search icon" class="fa-solid fa-magnifying-glass icon-search"></i>
+                    <div class="area-search">
+                        <input name="Search" type="text" class="">
+                        <i title="Delete" class="fa-solid fa-circle-xmark ltr"></i>
+                    </div>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing imgs-center" id="home">
+        <div class="overlay">
+            <div class="text">
+                <div class="content">
+                    <h2 data-transtion="helloDear">Hello Dear!</h2>
+                    <p data-transtion="afterWelcome">The information on this site is not correct, it is only a model of
+                        how the sites work.</p>
+                </div>
+            </div>
+            <i class="fa-solid fa-angle-left change-background left"></i>
+            <i class="fa-solid fa-angle-right change-background right"></i>
+            <ul class="bullets">
+                <li class="left-bull"></li>
+                <li class="center-bull active"></li>
+                <li class="right-bull"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Landing -->
+
+    <!-- Start Services -->
+    <div class="services" id="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2 data-transtion="services">Services</h2>
+                <p data-transtion="afterServices">
+                    The information on this site is incorrect and is only a model of how the sites operate.
+                </p>
+            </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3 data-transtion="srvBoxScreenTitle">Website and screens</h3>
+                        <p data-transtion="srvBoxScreenPara">The site is designed to fit all screens with the most
+                            suitable spaces for them.
+                        </p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <div class="text">
+                        <h3 data-transtion="srvBoxMontTitle">location and items</h3>
+                        <p data-transtion="srvBoxMontPara">
+                            The highest quality for choosing the locations of the elements in the page.
+                        </p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-palette"></i>
+                    <div class="text">
+                        <h3 data-transtion="srvBoxColorTitle">Location and colours</h3>
+                        <p data-transtion="srvBoxColorPara">
+                            Choose the appropriate and comfortable colors for the eye.
+                        </p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-pen"></i>
+                    <div class="text">
+                        <h3 data-transtion="srvBoxWordTitle">Location and fonts</h3>
+                        <p data-transtion="srvBoxWordPara">
+                            Writing texts in appropriate and clear sizes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Design -->
+    <div class="design">
+        <div class="text">
+            <h2 data-transtion="DesignTitle">Our Design Comes With...</h2>
+            <ul>
+                <li data-transtion="DesignListOne">Responsive Design</li>
+                <li data-transtion="DesignListTwo">Modern And Clean Design</li>
+                <li data-transtion="DesignListThree">Clean Code</li>
+                <li data-transtion="DesignListFour">Browser Friendly</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Design -->
+    <!-- Start Portfolio -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2 data-transtion="portfolio">Portfolio</h2>
+                <p data-transtion="portFolioPara">
+                    The most important events related to birds are attached with pictures with a title about the event.
+                </p>
+            </div>
+            <ul class="shuffle">
+                <li class="active photo" data-transtion="portFolioListOne">Photos</li>
+                <li class="new" data-transtion="portFolioListTwo">News</li>
+            </ul>
+            <div class="imgs-container">
+                <div class="box">
+                    <img decoding="async" src="/imgs/shuffle/img-shuffle-one.jpg" alt="" />
+                    <div class="caption">
+                        <h4 data-transtion="imgCaption">Awesome Image</h4>
+                        <p data-transtion="imgPara">Photography</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="/imgs/shuffle/img-shuffle-two.jpg" alt="" />
+                    <div class="caption">
+                        <h4 data-transtion="imgCaption">Awesome Image</h4>
+                        <p data-transtion="imgPara">Photography</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="/imgs/shuffle/img-shuffle-three.jpg" alt="" />
+                    <div class="caption">
+                        <h4 data-transtion="imgCaption">Awesome Image</h4>
+                        <p data-transtion="imgPara">Photography</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="/imgs/shuffle/img-shuffle-four.jpg" alt="" />
+                    <div class="caption">
+                        <h4 data-transtion="imgCaption">Awesome Image</h4>
+                        <p data-transtion="imgPara">Photography</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="/imgs/shuffle/img-shuffle-five.jpg" alt="" />
+                    <div class="caption">
+                        <h4 data-transtion="imgCaption">Awesome Image</h4>
+                        <p data-transtion="imgPara">Photography</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="/imgs/shuffle/img-shuffle-six.jpg" alt="" />
+                    <div class="caption">
+                        <h4 data-transtion="imgCaption">Awesome Image</h4>
+                        <p data-transtion="imgPara">Photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container">
+                <div class="port-box">
+                    <i class="fa-solid fa-moon"></i>
+                    <div class="text">
+                        <h3 data-transtion="NewsTitleOne">Owl at night</h3>
+                        <p data-transtion="NewsCaptionOne">
+                            owls hunt mainly at night, tackling prey ranging from mice, frogs, and snakes to rabbits,
+                            skunks, crows, and geese.
+                        </p>
+                    </div>
+                </div>
+                <div class="port-box">
+                    <i class="fa-solid fa-sun"></i>
+                    <div class="text">
+                        <h3 data-transtion="NewsTitleTwo">owl in the daytime</h3>
+                        <p data-transtion="NewsCaptionTwo">
+                            Some owls do not exhibit nocturnal behavior at all. A few species are diurnal, meaning they
+                            are active during the day.
+                        </p>
+                    </div>
+                </div>
+                <div class="port-box">
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                    <div class="text">
+                        <h3 data-transtion="NewsTitleThree">Owl food</h3>
+                        <p data-transtion="NewsCaptionThree">
+                            Most owls eat mainly small rodents, but their diets also include birds, fish, insects, and
+                            larger creatures like young deer and foxes.
+                        </p>
+                    </div>
+                </div>
+                <div class="port-box">
+                    <i class="fa-solid fa-eye"></i>
+                    <div class="text">
+                        <h3 data-transtion="NewsTitleFour">owl's eyes</h3>
+                        <p data-transtion="NewsCaptionFour">
+                            An owl's eyes can account for up to three percent of its entire body weight, whereas a
+                            human's eyes make up about 0.0003 percent of its body weight.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="more" data-transtion="more" href="#">More</a>
+        </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start About -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2 data-transtion="about">About Us</h2>
+                <p data-transtion="aboutPara">
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+            </div>
+            <img decoding="async" src="" alt="" />
+        </div>
+    </div>
+    <!-- Start Video -->
+    <div class="video">
+        <video autoplay muted loop>
+            <source src="/Videos/ProjectVideo.mp4" type="video/mp4" />
+        </video>
+        <div class="text">
+            <h2 data-transtion="videoTitle">Super Awesome Video Here</h2>
+            <p data-transtion="videoPara">It's All You Need</p>
+            <button data-transtion="seeMore">See More</button>
+        </div>
+    </div>
+    <!-- End Video -->
+    <!-- End About -->
+
+    <!-- Start Stats -->
+    <div class="stats" id="stats">
+        <div class="container">
+            <div class="main-heading">
+                <h2 data-transtion="stats">Stats</h2>
+                <p data-transtion="statsPara">
+                    There are roughly 225 species of owls in the world, depending on how various geographic populations
+                    and subspecies are classified.
+                </p>
+            </div>
+            <div class="left-stats">
+                <div class="content">
+                    <div class="types-content">
+                        <div class="text">
+                            <h2 data-transtion="types">Types</h2>
+                            <p data-transtion="typesPara">Here are some types of owls!</p>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/African Barred Owlet.jpg" alt="Western Screech-owl">
+                            <h4 data-transtion="africanBarredOwlet">African Barred Owlet</h4>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Albertine Owlet Glaucidium.jpg" alt="Megascops kennicottii">
+                            <h4 data-transtion="albertineOwletGlaucidium">Albertine Owlet Glaucidium</h4>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Eurasian Eagle-owl Bubo.jpg">
+                            <h4 data-transtion="eurasianEagleOwlBubo">Eurasian Eagle-owl Bubo</h4>
+                        </div>
+                    </div>
+                    <div class="stats-content">
+                        <div class="text">
+                            <h2 data-transtion="stats">Stats</h2>
+                            <p data-transtion="statsPara">Here are the proportions of owls in the continents!</p>
+                        </div>
+                        <div class="content-bars">
+                            <div class="bar">
+                                <h3 data-transtion="australia">Australia</h3>
+                                <div class="background-bar">
+                                    <span style="width: 70%;" data-stat="70%"></span>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <h3 data-transtion="asia">Asia</h3>
+                                <div class="background-bar">
+                                    <span style="width: 90%;" data-stat="90%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-stats">
+                <div class="content">
+                    <div class="types-content">
+                        <div class="text">
+                            <h2 data-transtion="types">Types</h2>
+                            <p data-transtion="typesPara">Here are some types of owls!</p>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Western Screech-owl.jpg" alt="Western Screech-owl">
+                            <h4 data-transtion="westernScreechOwl">Western Screech-owl</h4>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Megascops kennicottii.jpg" alt="Megascops kennicottii">
+                            <h4 data-transtion="megascopskennicottii">Megascops kennicottii</h4>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Snowy Owl Bubo scandiaca.jpg" alt="Snowy Owl Bubo scandiaca">
+                            <h4 data-transtion="snowyOwlBuboScandiaca">Snowy Owl Bubo scandiaca</h4>
+                        </div>
+                    </div>
+                    <div class="stats-content">
+                        <div class="text">
+                            <h2 data-transtion="stats">Stats</h2>
+                            <p data-transtion="statsPara">Here are the proportions of owls in the continents!</p>
+                        </div>
+                        <div class="content-bars">
+                            <div class="bar">
+                                <h3 data-transtion="africa">Africa</h3>
+                                <div class="background-bar">
+                                    <span style="width: 80%;" data-stat="80%"></span>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <h3 data-transtion="europe">Europe</h3>
+                                <div class="background-bar">
+                                    <span style="width: 60%;" data-stat="60%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-stats">
+                <div class="content">
+                    <div class="types-content">
+                        <div class="text">
+                            <h2 data-transtion="types">Types</h2>
+                            <p data-transtion="typesPara">Here are some types of owls!</p>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Chestnut Owlet Glaucidium.jpg" alt="Western Screech-owl">
+                            <h4 data-transtion="chestnutOwletGlaucidium">Chestnut Owlet Glaucidium</h4>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Rock Eagle-owl Bubo.jpg" alt="Megascops kennicottii">
+                            <h4 data-transtion="rockEagleOwlBubo">Rock Eagle-owl Bubo</h4>
+                        </div>
+                        <div class="box">
+                            <img src="/imgs/types/Great Horned Owl Bubo.jpg">
+                            <h4 data-transtion="greatHornedOwlBubo">Great Horned Owl Bubo</h4>
+                        </div>
+                    </div>
+                    <div class="stats-content">
+                        <div class="text">
+                            <h2 data-transtion="stats">Stats</h2>
+                            <p data-transtion="statsPara">Here are the proportions of owls in the continents!</p>
+                        </div>
+                        <div class="content-bars">
+                            <div class="bar">
+                                <h3 data-transtion="northAmerica">North<br>America</h3>
+                                <div class="background-bar">
+                                    <span style="width: 90%;" data-stat="50%"></span>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <h3 data-transtion="southAmerica">South<br>America</h3>
+                                <div class="background-bar">
+                                    <span style="width: 80%;" data-stat="80%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="bullets">
+                <li class="left-bull"></li>
+                <li class="center-bull active"></li>
+                <li class="right-bull"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Stats -->
+
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+        <div class="main-heading">
+            <h2 data-transtion="contact">Contact</h2>
+            <p data-transtion="contactPara">
+                To know the details and our services follow the following..
+            </p>
+        </div>
+        <div class="contact-section">
+            <form>
+                <!-- Frist -->
+                <div class="user-section">
+                    <div class="group-details">
+                        <label data-transtion="userName">Username:</label>
+                        <div class="response">
+                            <input minlength="3" maxlength="26" name="user" type="text">
+                            <i title="Loading" class="fa-solid fa-spinner loading"></i>
+                            <i title="Vaild" class="fa-solid fa-check valid"></i>
+                            <i title="Invalid" class="fa-solid fa-xmark not-valid"></i>
+                        </div>
+                    </div>
+                    <div class="group-bottons">
+                        <span data-transtion="nextTo" title="Next to">Next to</span>
+                    </div>
+                </div>
+                <!-- Second -->
+                <div class="email-section">
+                    <div class="group-details">
+                        <label data-transtion="email">Email:</label>
+                        <div class="response">
+                            <input minlength="8" maxlength="26" name="email" type="email">
+                            <i title="Loading" class="fa-solid fa-spinner loading"></i>
+                            <i title="Vaild" class="fa-solid fa-check valid"></i>
+                            <i title="Invalid" class="fa-solid fa-xmark not-valid"></i>
+                        </div>
+                    </div>
+                    <div class="group-bottons">
+                        <span data-transtion="back" class="back">Back</span>
+                        <span data-transtion="nextTo" class="next">Next to</span>
+                    </div>
+                </div>
+                <!-- Third -->
+                <div class="text-section">
+                    <div class="group-details">
+                        <label data-transtion="comment">Comment:</label>
+                        <textarea minlength="10" name="comment"></textarea>
+                    </div>
+                    <div class="group-bottons">
+                        <span data-transtion="back">Back</span>
+                        <input value="" type="submit" class="submit" data-transtion="send">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <h2 data-transtion="footerTitle">Our Pages</h2>
+            <div class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="copyright"><span data-transtion="lotfy">LOTFY</span> <span data-transtion="allRightReserved">All
+                    Right
+                    Reserved</span> &copy; 2023</p>
+        </div>
+        <select>
+            <option class="en" value="en" data-transtion="english">English</option>
+            <option class="ar" value="ar" data-transtion="arabic">عربي</option>
+        </select>
+    </div>
+    <!-- End Footer -->
+</body>
+
+</html>
